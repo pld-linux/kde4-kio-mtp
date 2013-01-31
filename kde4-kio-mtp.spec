@@ -9,7 +9,7 @@ Summary:	Media Transfer Protocol (MTP) kioslave
 Summary(pl.UTF-8):	Media Transfer Protocol (MTP) kioslave
 Name:		kde4-kio-mtp
 Version:	0.0.%{srcdate}
-Release:	0.2
+Release:	1
 License:	GPL v3
 Group:		X11/Applications
 Source0:	http://beauty.ant.gliwice.pl/PLD/kio-mtp-%{srcdate}.tgz
