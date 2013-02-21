@@ -3,8 +3,8 @@
 #
 %define		orgname		kio-mtp
 %define		qtver		4.7.1
-%define		kdever		4.9.0
-%define         srcdate         20130121
+%define		kdever		4.10.0
+%define         srcdate         20130221
 Summary:	Media Transfer Protocol (MTP) kioslave
 Summary(pl.UTF-8):	Media Transfer Protocol (MTP) kioslave
 Name:		kde4-kio-mtp
@@ -13,11 +13,12 @@ Release:	1
 License:	GPL v3
 Group:		X11/Applications
 Source0:	http://beauty.ant.gliwice.pl/PLD/kio-mtp-%{srcdate}.tgz
-# Source0-md5:	630c2ae98cd37963287ec73ee6e96ad5
+# Source0-md5:	978f8500c00f37a7bf8b1c6920baaeb8
 URL:		http://www.afiestas.org/workspaces-gain-mtp-support/
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
+BuildRequires:	pkgconfig
 BuildRequires:	qt4-build >= %{qtver}
 BuildRequires:	qt4-qmake >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.605
